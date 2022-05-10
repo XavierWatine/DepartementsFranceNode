@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	color: white;
+	
+}
+
+@font-face{
+	font-family: 'digital-clock-font';
+	src: url('../ext/fonts/AppleIiScreenTypeface-2aP3.ttf');
+}
+
+body {
+	background-color: #4AC8E8;
+}
+
+p {
+	font-size: 25px;
+	text-shadow: 0 0 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
+	-moz-text-shadow: 0 0 2px #000;
+	-webkit-text-shadow: 0 0 2px #000;
+}
+
+
+
+.wrapper {
+	height: 12vh;
+	padding-top: 2vh;
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.wrapper > p {
+	display: inline-block;
+	text-align: center;
+	width: 33vw;
+	font-size: 5vh;
+	font-weight: bold;
+
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+
+	color: white;
+	text-shadow: 0 0 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
+	-moz-text-shadow: 0 0 2px #000;
+	-webkit-text-shadow: 0 0 2px #000;
+}
+
+#map {
+	display: inline-block;
+	height: 100%;
+	grid-column: 2 / 5;
+
+	max-width: 100%;
+	max-height: 85vh;
+}
+
+#help {
+	display: inline-block;
+	padding-top: 10vh;
+	grid-column: 1;
+}
+
+#help > p {
+	margin: auto;
+	width: 50%;
+	font-size: 16px;
+}
+
+#mapWrapper {
+	height: 85vh;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+#depToFind {
+	grid-column: 1;
+	vertical-align: middle;
+	
+}
+
+#timer {
+	grid-column: 2;
+	font-family: "digital-clock-font";
+	font-size: 8vh;
+	font-weight: inherit;
+	padding: 0;
+}
+
+
+#mistakes {
+	grid-column: 3;
+	width: 30vw;
+}
+
+
+.blason {
+	
+}
