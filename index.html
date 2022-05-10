@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Départements Français</title>
+
+	<!-- Load jQuery -->
+	<script type="text/javascript" src="/ext/libs/jquery-3.6.0.min.js"></script>
+	<!-- Load Map -->
+	<link rel="stylesheet" type="text/css" href="/ext/libs/jquery-jvectormap-2.0.5.css">
+	<script type="text/javascript" src="/ext/libs/jquery-jvectormap-2.0.5.min.js"></script>
+	<script type="text/javascript" src="/script/jquery-jvectormap-fr-merc.js"></script>
+
+	<!-- Load style -->
+	<link rel="stylesheet" type="text/css" href="/style/main.css">
+
+	<!-- Load updateMap -->
+	<script type="text/javascript" src="/script/updateMap.js"></script>
+
+	<!-- Load audio -->
+	<script type="text/javascript" src="/script/audio.js"></script>
+
+	<!-- Load Leaderboard -->
+	<script type="text/javascript" src="/script/leaderboard.js"></script>
+
+	
+
+</head>
+<body>
+	
+	<div class="wrapper">
+		<p id="depToFind">Clique pour commencer</p>
+		<p id="timer">00:00:00</p>
+		<p id="mistakes">Erreurs : 0</p>
+	</div>
+	<div id="mapWrapper" class="wrapper">
+		<div id="map"></div>
+		<div id="help">
+			<p>Aide : T</p>
+			<p style="color: red; text-shadow: 0 0 2px #fff;-moz-text-shadow: 0 0 2px #fff;-webkit-text-shadow: 0 0 px #000;">+ 5 erreurs</p>
+			<br/>
+			<p>Dark mode : D</p>
+		</div>
+		
+
+	</div>
+
+	<!-- load chrono -->
+	<script type="text/javascript" src="/script/timer.js"></script>
+
+	<script type="text/javascript" src="/script/init.js"></script>
+
+</body>
+</html>

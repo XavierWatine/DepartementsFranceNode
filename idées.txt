@@ -1,0 +1,17 @@
+Bruitages de plus en plus forts au fur et à mesure des erreurs
+
+
+1. Rendre non clickable les departements déjà trouvés
+	potentiellement modifier le curseur
+
+2. Ajouter bruitages
+
+3. Images département
+	info-bulle
+	background dpt
+
+4. Décompte avec le début
+
+5 Modes de jeu
+	Aide plus ou moins forte
+	mode pas le droit à l'erreur
